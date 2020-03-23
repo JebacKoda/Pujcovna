@@ -77,11 +77,78 @@
         </h2>
     </div>
 </div>
+
+    <div class="row my-row">
+        <div class="col my-col">
+            <h2>Kontakt</h2>
+            <p class="text1">
+                Telefon:    +420123456789<br>
+                Fax:        +420123456789<br>
+                E-mail:     email@arte.cz
+            </p>
+            <h2>Otevírací doba</h2>
+            <p class="text1">
+                Pondělí:    7:00 - 16:00<br>
+                Úterý:      7:00 - 16:00<br>
+                Středa:     7:00 - 16:00<br>
+                Čtvrtek:    7:00 - 16:00<br>
+                Pátek:      7:00 - 16:00<br>
+                Sobota:     zavřeno<br>
+                Neděle:     zavřeno
+            </p>
+            <h2> Fakturační údaje</h2>
+            <p class="text1">
+                Arte spol. s.r.o.<br>
+                Bánskobystrická 2080/11<br>
+                160 00 Praha 6
+                <br>
+                IČO: 45 80 71 75<br>
+                DIČ: CZ 45 80 71 75
+                <br>
+                Společnost je zapsaná v obchodním rejstříku vedeném u Městského soudu v Praze v oddílu C, složka 12098
+            </p>
+            <h2>Bankovní spojení</h2>
+            <p class="text1">
+                Banka: ČSOB a.s. Praha 3<br>
+                Číslo účtu: 3522787/0300
+            </p>
+
+        </div>
+        <div class="col my-col">
+            <h2>Adresa půjčovny</h2>
+            <p class="text1">Arte spol. s.r.o.<br>
+                Kutnohorská 288/82<br>
+                111 01 Praha 10 - Dolní Měcholupy<br>
+                <br>
+                GPS: 50.0460656N, 14.5763933E
+            </p>
+
+            <div id="googleMap" style="width:100%;height:400px;"></div>
+
+            <script>
+                function myMap() {
+                    var mapProp= {
+                        center:new google.maps.LatLng(51.508742,-0.120850),
+                        zoom:5,
+                    };
+                    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                }
+            </script>
+
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
+        </div>
+    </div>
+
+
+
+
 <div class="row my-row">
     <div class="col my-col">
         <section class="mb-4">
 
-            <p class="text-center w-responsive mx-auto mb-5">V případě potřeby rychlé odpovědi nám neváhejte zavolat!</p>
+            <p class="text-center w-responsive mx-auto mb-5"></p>
 
             <div class="row my-row2">
 
