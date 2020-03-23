@@ -1,0 +1,318 @@
+body{
+    margin: 0px;
+    background-color: white;
+}
+.my-container {
+
+}
+.navbar{
+    text-align: center;
+    background-color: black;
+}
+.navbar1{
+    margin-bottom: 55px;
+}
+.my-row {
+
+}
+.my-row-kategorie{
+
+}
+
+.my-row1{
+    margin-bottom: -20px;
+}
+.row-button{
+    text-align: right;
+    margin-right: 15px;
+}
+.md-form1{
+    width: 510px;
+    position: absolute;
+}
+.logo {
+    width: calc(10vw + 3em);
+}
+.footer {
+    margin: 0 auto;
+}
+.left {
+    text-align: left;
+    margin: 0 auto;
+}
+.text {
+    color: white;
+    padding-top: 10px;
+    font-family: Calibri;
+}
+.text-gdpr{
+    font-size: 15px;
+    font-family: Calibri;
+}
+.seda{
+    font-family: Calibri;
+    color: #535E5D;
+}
+.footer_text{
+    font-family: Calibri;
+    font-size: 20px;
+    color: white;
+    margin-bottom: -5px;
+}
+.footer_nadpis{
+    color: white;
+}
+.nadpis{
+    font-size: 25px;
+    font-weight: bold;
+}
+.h2{
+    color: black;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    border-bottom: 3px solid #ffe321;
+    line-height: 2em;
+
+}
+.h2 span{
+    background: white;
+    padding:0 10px;
+}
+
+.text1{
+    font-family: Calibri;
+    font-size: calc(0.35vw + 0.95em);
+}
+.odkaz{
+    font-family: Calibri;
+    font-size: calc(0.35vw + 0.95em);
+    color: black;
+    text-decoration: black;
+}
+.text-bold{
+    font-weight: bold;
+    font-family: Calibri;
+}
+.my-col{
+
+}
+.my-col-left{
+    text-align: left;
+}
+.my-col1{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.my-col2{
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid lightgrey;
+}
+.my-col4{
+    background-color: transparent;
+    margin: 10px;
+}
+.my-col6{
+
+}
+.icons{
+    width: 80%;
+}
+.hodnota{
+    text-align: right;
+}
+.hodnoty{
+
+}
+.my-col-left{
+    right: 15px;
+    top: 10px;
+}
+.nazev{
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: left;
+}
+.nazvy{
+    text-align: left;
+}
+.modely{
+    color: black;
+    font-family: Calibri;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.my-row-kategorie{
+    background-color: lightgrey;
+    margin-top: 10px;
+}
+.my-col-kategorie1{
+    background-color: #ffde11;
+}
+.my-row-produkt1{
+
+}
+.cena{
+    font-weight: bold;
+}
+.tlacitko{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-table;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.tlacitko:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.tlacitko1{
+    background-color: #343a40;
+    border: none;
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.tlacitko1:hover{
+    background-color: yellow;
+    color: black;
+}
+.tlacitko1:disabled{
+    opacity: 0.5;
+}
+.tlacitko1:enabled{
+    opacity: 1;
+}
+.mb-4{
+    margin-top: -50px;
+}
+.koncept{
+    width: 47%;
+    border-radius: 20px;
+}
+.my-col5{
+    margin-left: 30px;
+}
+
+#message{
+    padding-bottom: 20px;
+    width: 540px
+}
+#obrazek{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#left{
+    text-align: left;
+}
+#stred{
+    text-align: center;
+    font-size: calc(0.7vw + 0.63em);
+}
+#sticky-footer{
+    background-color: rgba(0, 0, 0, 0.87);
+}
+#right{
+    text-align: center;
+}
+@media screen and (max-width: 1080px){
+    .md-form1{
+        position: absolute;
+        width: 300px;
+    }
+    .my-col2{
+        max-width: 500px;
+        margin: 10px auto;
+    }
+    .my-row3{
+        align-content: center;
+        border: 2px solid transparent;
+    }
+    .tlacitko{
+        font-size: 30px;
+        height: 70px;
+        width: 450px;
+    }
+    .nazev{
+        font-size: 25px;
+    }
+    .nazvy{
+        font-size: 20px;
+    }
+    .modely{
+        font-size: 40px;
+    }
+    .hodnota{
+        font-size: 20px;
+    }
+    .koncept{
+        width: 100%;
+    }
+    .tool-tip {
+        display: inline-block;
+    }
+
+    .tool-tip [disabled] {
+        pointer-events: none;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #message{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #message{
+        position: relative;
+        top: 125px;
+        padding-bottom: 0;
+        width: calc(80vw + 3.2rem);
+    }
+    .my-row-send-contact{
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .row-button{
+        text-align: center;
+
+    }
+    .tlacitko1{
+        position: absolute;
+        right: -15px;
+    }
+    .text-gdpr{
+        font-size: 10px;
+        font-family: Calibri;
+    }
+    .gdpr{
+        font-size: 10px;
+        font-family: Calibri;
+    }
+    .my-col3{
+        width: 2px;
+    }
+}
