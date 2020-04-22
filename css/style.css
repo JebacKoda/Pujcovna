@@ -17,17 +17,16 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(25, 25, 25, .4);
+    background-color: rgb(255, 255, 255);
     min-width: 250px;
-    z-index: 1;
+    z-index: -1;
+
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
     padding: 12px 16px;
     text-decoration: none;
-    display: inline-block;
 }
 
 /* Change color of dropdown links on hover */
@@ -37,11 +36,12 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: transparent;}
+.dropdown:hover .dropbtn {background-color: yellow; color: black;}
 
 .menu-block{
     display: inline-block;
-
+    border: 2px solid lightgrey;
+    margin: 2px;
 }
 
 .menu-obrazek{
@@ -65,10 +65,14 @@
 .my-row {
 
 }
-.my-row-kategorie{
+.my-row-icons{
 
 }
-
+.category-icons{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 .my-row1{
     margin-bottom: -20px;
 }
@@ -182,6 +186,7 @@
     border-radius: 20px;
     border: 2px solid lightgrey;
 }
+
 .my-col4{
     background-color: transparent;
     margin: 10px;
@@ -194,6 +199,7 @@
     width: 80%;
     height: 250px;
 }
+
 .hodnota{
     text-align: right;
 }
@@ -220,9 +226,25 @@
     font-weight: bold;
     margin-bottom: 10px;
 }
+.odkaz-pic:hover{
+    text-decoration: none;
+}
+
+.kategorie-nadpis{
+    color: black;
+}
+
+.nav-link:hover .kategorie-nadpis{
+    color: white;
+}
+
 .my-row-kategorie{
     background-color: lightgrey;
-    margin-top: 10px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+.my-col2:hover .my-row-kategorie{
+    background-color: yellow;
 }
 .my-col-kategorie1{
     background-color: #ffde11;
@@ -329,8 +351,7 @@
         margin: 10px auto;
     }
     .my-row3{
-        align-content: center;
-        border: 2px solid transparent;
+
     }
     .tlacitko{
         font-size: 30px;
