@@ -1,7 +1,7 @@
 /* Dropdown Button */
 .dropbtn {
     color: white;
-    padding: 16px;
+    padding: 10px;
     font-size: 16px;
     border: none;
     background-color: transparent;
@@ -55,12 +55,17 @@
 .my-container {
 
 }
+
+.center{
+    float: right;
+}
 .navbar{
     text-align: center;
     background-color: black;
 }
 .navbar1{
     margin-bottom: 55px;
+
 }
 .my-row {
 
@@ -339,7 +344,7 @@
     background-color: rgba(0, 0, 0, 0.87);
 }
 #right{
-    text-align: center;
+    text-align: right;
 }
 @media screen and (max-width: 1080px){
     .md-form1{
