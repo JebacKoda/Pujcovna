@@ -81,6 +81,6 @@ function Write()
         var Text = DropDownMachines.options[DropDownMachines.selectedIndex].text;
 
         /* prepsani html kodu uvnitr weboveho prvku ID="3" na ODKAZ, ktery obsahuje Text (hodnota TEXT zvoleneho stroje) tak, aby odkazoval na konkretni pdf */
-        document.getElementById("3").innerHTML = "<a target='_blank' href='pdf/nakladace/" + Text + ".pdf'>"+ Text + "</a>";
+        document.getElementById("3").innerHTML = "<a id='odkaz' target='_blank' href='pdf/nakladace/" + Text + ".pdf'>" + Text + "</a>";
     }
 }

@@ -1,3 +1,16 @@
+#odkaz {
+    padding-left: 10px;
+}
+.btn-group{
+    margin-bottom: 15px;
+}
+
+.vyber{
+    border-radius: 10px;
+    border: 2px solid grey;
+    margin-right: 10px;
+}
+
 /* Dropdown Button */
 .dropbtn {
     color: white;
@@ -36,7 +49,7 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: yellow; color: black;}
+.dropbtn:hover {background-color: yellow; color: black;}
 
 .menu-block{
     display: inline-block;
@@ -75,6 +88,8 @@
 }
 .category-icons{
     width: 100%;
+    min-width: 350px;
+    height: auto;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -131,7 +146,7 @@
 }
 .footer_text{
     font-family: Calibri;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     margin-bottom: -5px;
 }
@@ -173,6 +188,8 @@
     font-weight: bold;
     font-family: Calibri;
 }
+
+
 .my-col{
 
 }
@@ -197,7 +214,7 @@
     margin: 10px;
 }
 .my-col6{
-
+    margin: 0 auto;
 }
 .icons{
     float: inside;
@@ -242,7 +259,16 @@
 .nav-link:hover .kategorie-nadpis{
     color: white;
 }
+.my-row-produkt{
 
+}
+.box{
+
+}
+
+.my-row-cena{
+    background-color: yellow;
+}
 .my-row-kategorie{
     background-color: lightgrey;
     border-bottom-left-radius: 19px;
@@ -254,9 +280,7 @@
 .my-col-kategorie1{
     background-color: #ffde11;
 }
-.my-row-produkt1{
 
-}
 .cena{
     font-weight: bold;
 }
@@ -268,6 +292,7 @@
     text-align: center;
     display: inline-table;
     font-size: 15px;
+    width: 100%;
     margin-bottom: 20px;
     border-radius: 10px;
     transition: all 0.5s ease;
@@ -302,9 +327,6 @@
 .mb-4{
     margin-top: -50px;
 }
-.droplist{
-
-}
 .document{
     width: 5%;
     margin-left: 15px;
@@ -322,6 +344,13 @@
 }
 .my-col5{
     margin-left: 30px;
+}
+.contactbg{
+    background: #5a6268;
+    padding-bottom: 1px;
+}
+#contact{
+    margin-top: 80px;
 }
 
 #message{
@@ -357,14 +386,6 @@
     }
     .my-row3{
 
-    }
-    .tlacitko{
-        font-size: 30px;
-        height: 70px;
-        width: 450px;
-    }
-    .nazev{
-        font-size: 25px;
     }
     .nazvy{
         font-size: 20px;
@@ -413,6 +434,9 @@
     .tlacitko1{
         position: absolute;
         right: -15px;
+    }
+    .tlacitko {
+
     }
     .text-gdpr{
         font-size: 10px;
